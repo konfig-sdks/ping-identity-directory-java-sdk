@@ -1,0 +1,20 @@
+
+
+# JsonLogFieldSyntaxResponse
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**description** | **String** | A description for this Log Field Syntax |  [optional] |
+|**schemas** | **List&lt;EnumjsonLogFieldSyntaxSchemaUrn&gt;** |  |  |
+|**id** | **String** | Name of the Log Field Syntax |  |
+|**includedSensitiveField** | **List&lt;String&gt;** | The names of the JSON fields that will be considered sensitive. |  [optional] |
+|**excludedSensitiveField** | **List&lt;String&gt;** | The names of the JSON fields that will not be considered sensitive. |  [optional] |
+|**defaultBehavior** | **EnumlogFieldSyntaxDefaultBehaviorProp** |  |  [optional] |
+|**meta** | [**MetaMeta**](MetaMeta.md) |  |  [optional] |
+|**urnColonPingidentityColonSchemasColonConfigurationColonMessagesColon20** | [**MetaUrnPingidentitySchemasConfigurationMessages20**](MetaUrnPingidentitySchemasConfigurationMessages20.md) |  |  [optional] |
+
+
+
